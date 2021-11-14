@@ -1,0 +1,263 @@
+.topnave {
+  box-sizing: border-box;
+  float: left;
+  color: #aa6060;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #333;
+  margin-bottom: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.topnave-link {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  scroll-behavior: fixed
+}
+.topnave-link:hover {
+  background-color: rgb(204, 25, 129);
+  color: #f2f2f2;
+}
+
+.active {
+  background-color: #a018b3;
+  color: white;
+}
+
+.h2 {
+font-family: 'Mochiy Pop P One', sans-serif; 
+justify-content: center;
+text-align: left;
+margin-top: 5rem;
+
+
+}
+
+.img-container {
+  text-align: center;
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+ 
+  
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  margin-top: 5rem;
+  display:block;
+  margin: 0 auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 66%;
+  left: 44%;
+  right: 41%;
+  background-color: #eeba2b;
+  overflow: hidden;
+  width: 0;
+  height:60%;
+  transition: .5s ease;
+}
+
+.img-container:hover .overlay {
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  margin-top: 5rem; 
+  
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+   overflow: hidden;
+  
+}
+
+.body {
+
+  font-family: 'Mochiy Pop P One', sans-serif;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap; 
+
+}
+
+
+.card {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: white;
+  align-items: center;
+  text-align: justify;
+  background-color: rgb(206, 54, 143);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.3rem;
+  padding: 50px;
+ 
+}
+
+
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  margin-top: 1rem;
+}
+
+
+
+#footer {
+  align-items: stretch;
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  opacity: 0.5;
+  margin-top: 3rem;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 0.3 px;
+  color:#a018b3
+  
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:column
+
+}
+
+.social {
+  text-decoration: none;
+  color: #f3bb20;
+}
+.social:hover {
+  color: rgb(230, 33, 197);
+}
+.ul {
+  margin: 0.3rem;
+}
+
+
+/*About*/
+
+
+.look container{
+  display: flex;
+  flex-direction: column;
+  align-content: column;
+  flex-direction:left;
+  margin-top: 8rem
+  
+}
+.maps{
+  text-align: center;
+  border-color: 8px black
+}
+
+.parrafo-container {
+  flex-wrap: wrap; 
+  flex-direction: column;
+  align-content: center;
+  border-color: 2px black
+}
+
+.parrafo-child {
+  border: 2px; 
+  border-color: black;
+  width: 25rem;
+  text-justify: center;
+  height: 20%;
+  margin: 2rem;
+  align-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+    
+.button {
+  cursor: pointer;
+  position:relative;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 22px;
+  color: white;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  background-color: rgb(202, 29, 136);
+}
+
+.remove {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  align-items: center;  
+}
+
+.add{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  align-items: center;  
+}
+
+.next.button {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  align-items: center;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(206, 35, 177, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.disable {
+  display: none;
+}
+
