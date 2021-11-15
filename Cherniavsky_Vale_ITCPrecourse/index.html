@@ -20,7 +20,47 @@
     <br><br><br>
       <div class="page-wrapper">
        <div class="img-container">
-        <img id="profile-image" src="./images/VC Logo.jpg" alt="VC" class="profile-image"></img>
+        
+
+        <button id="button"><img id="profile-image" src="./images/VC Logo.jpg" alt="VC" class="profile-image"></img></button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe src="https://giphy.com/embed/Cmr1OMJ2FN0B2" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+       
          <div class="overlay">
           <div class="text">
             Hi you!
@@ -40,13 +80,14 @@
       <div id="footer">
 
       </div>
+      
       <a href="index.html">Home</a>
-      <a href= "pages/contact.html">Contact</a>
+      <a href="pages/contact.html">Contact</a>
       <a href="pages/about.html">About</a>
     </footer>
 
   
-  <script src=..Cherniavsky_Vale_ITCPrecourse/js/main.js"></script>
+  <script src="../Cherniavsky_Vale_ITCPrecourse/js/main.js"></script>
   <script src="../Cherniavsky_Vale_ITCPrecourse/js/footer.js"></script>
 </body>
 

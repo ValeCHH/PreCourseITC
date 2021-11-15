@@ -44,10 +44,10 @@ margin-top: 5rem;
 
 .img-container {
   text-align: center;
-  border-radius: 50%;
-  height: 175px;
-  width: 175px;
- 
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  align-content: center;
   
 }
 
@@ -58,6 +58,8 @@ margin-top: 5rem;
   margin-top: 5rem;
   display:block;
   margin: 0 auto;
+  background-color: white;
+  border: none;
   
 }
 
@@ -65,7 +67,6 @@ margin-top: 5rem;
   position: absolute;
   bottom: 66%;
   left: 44%;
-  right: 41%;
   background-color: #eeba2b;
   overflow: hidden;
   width: 0;
@@ -81,8 +82,10 @@ margin-top: 5rem;
   
 }
 
+
 .text {
   color: white;
+  font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 20px;
   position: absolute;
   bottom: 30%;
@@ -95,6 +98,10 @@ margin-top: 5rem;
   
 }
 
+.modal {
+ display: none;
+}
+
 .body {
 
   font-family: 'Mochiy Pop P One', sans-serif;
@@ -103,7 +110,7 @@ margin-top: 5rem;
   margin-top: 8rem;
   display: flex;
   flex-wrap: wrap; 
-
+  background-color: white;
 }
 
 
@@ -135,13 +142,14 @@ margin-top: 5rem;
   justify-content: center;
   font-family: 'Mochiy Pop P One', sans-serif;
   margin-top: 1rem;
+  background-color: white;
 }
 
 
 
 #footer {
   align-items: stretch;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   justify-content: left;
   opacity: 0.5;
@@ -151,7 +159,6 @@ margin-top: 5rem;
   color:#a018b3
   
 }
-
 
 .container {
   display: flex;
@@ -185,19 +192,17 @@ margin-top: 5rem;
 }
 .maps{
   text-align: center;
-  border-color: 8px black
-}
+  border-color: 8px black;
+  }
 
 .parrafo-container {
   flex-wrap: wrap; 
   flex-direction: column;
   align-content: center;
-  border-color: 2px black
+ 
 }
 
 .parrafo-child {
-  border: 2px; 
-  border-color: black;
   width: 25rem;
   text-justify: center;
   height: 20%;
@@ -206,7 +211,7 @@ margin-top: 5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
-    
+
 .button {
   cursor: pointer;
   position:relative;
@@ -217,7 +222,7 @@ margin-top: 5rem;
   color: white;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0; color:
   user-select: none;
   font-family: 'Mochiy Pop P One', sans-serif;
   background-color: rgb(202, 29, 136);
@@ -245,9 +250,9 @@ margin-top: 5rem;
   background-color: rgba(206, 35, 177, 0.8);
 }
 
-/* Caption text */
+
 .text {
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
